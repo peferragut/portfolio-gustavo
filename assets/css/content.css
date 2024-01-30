@@ -39,6 +39,7 @@ section {
 .film {
     display: flex;
     gap: 105px;
+    margin-bottom: 155px;
 }
 
 .film-img {
