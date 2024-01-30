@@ -1,0 +1,35 @@
+section {
+    display: flex;
+    gap: 1.6rem;
+}
+
+#profile-photo {
+    width: 210px;
+}
+
+#my-description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+#roles,
+.text-description {
+    font-family: 'Barlow', sans-serif;
+}
+
+#roles {
+    font-size: 1.4rem;
+}
+
+#my-description h1 {
+    font-size: 5.4rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.text-description {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+

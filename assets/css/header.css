@@ -1,12 +1,16 @@
+header {
+    margin-bottom: 20px;
+}
+
 #header-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
 }
 
 #logo-pinaculo {
-    width: 160px;
+    width: 150px;
 }
 
 #nav-links {
@@ -22,7 +26,7 @@
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     transition: 0.4s;
 }
 
