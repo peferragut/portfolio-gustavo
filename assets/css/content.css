@@ -40,6 +40,7 @@ section {
     display: flex;
     gap: 105px;
     margin-bottom: 155px;
+    align-items: center;
 }
 
 .film-img {
@@ -50,7 +51,6 @@ section {
 .film-article {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
 }
 
@@ -58,16 +58,23 @@ section {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.big-name {
+    font-size: 2rem;
 }
 
 .film-info {
     font-weight: lighter;
     font-size: 23px;
+    margin-bottom: 1.5rem;
 }
 
 .film-description {
     font-weight: 400;
     font-size: 21px;
+    margin-bottom: 1.5rem;
 }
 
 .film-link {
