@@ -1,19 +1,20 @@
 header {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 #header-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
+    align-items: center;
+    max-width: inherit;
+    /* margin: auto; */
 }
 
 #logo-pinaculo {
     width: 135px;
 }
 
-#nav-links {
+.nav-links {
     display: flex;
     gap: 4rem; 
     list-style: none;
@@ -34,3 +35,8 @@ header {
     color: #E53718;
 }
 
+footer .nav-links {
+    justify-content: flex-end;
+    border-top: 1px solid white;
+    padding: 20px;
+}

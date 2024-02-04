@@ -4,6 +4,10 @@ section {
     margin-bottom: 90px;
 }
 
+#about-me {
+    max-width: 780px;
+}
+
 #profile-photo {
     width: 210px;
 }
