@@ -1,5 +1,5 @@
 header {
-    margin-bottom: 35px;
+    margin-bottom: 2.18rem;
 }
 
 #header-content {
@@ -7,7 +7,6 @@ header {
     justify-content: space-between;
     align-items: center;
     max-width: inherit;
-    /* margin: auto; */
 }
 
 #logo-pinaculo {
@@ -39,4 +38,58 @@ footer .nav-links {
     justify-content: flex-end;
     border-top: 1px solid white;
     padding: 20px;
+}
+
+@media screen and (max-width: 660px){
+    header {
+        margin-bottom: 1.5rem;
+    }
+    
+    #logo-pinaculo {
+        width: 120px;
+    }
+
+    .nav-links {
+        gap: 2.5rem;
+    }
+    
+    .nav-link {
+        font-size: 1.375rem;
+    }
+
+    footer .nav-links {
+        padding: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav-links {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    header {
+        text-align: center;
+    }
+
+    #header-content {
+        display: block;
+    }
+
+    #logo-pinaculo {
+        width: 100px;
+    }
+
+    header .nav-links {
+        display: block;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+    footer .nav-links {
+        justify-content: center;
+    }
 }

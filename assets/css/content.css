@@ -1,7 +1,7 @@
 section {
     display: flex;
     gap: 1.6rem;
-    margin-bottom: 90px;
+    margin-bottom: 5.325rem;
 }
 
 #about-me {
@@ -43,7 +43,7 @@ section {
 .film {
     display: flex;
     gap: 105px;
-    margin-bottom: 155px;
+    margin-bottom: 9rem;
     align-items: center;
 }
 
@@ -97,6 +97,14 @@ section {
 }
 
 @media screen and (max-width: 1320px) {
+    #my-description h1 {
+        font-size: 4.4rem;
+    }
+
+    #roles {
+        font-size: 1.25;
+    }
+
     .film {
         gap: 5%;
     }
@@ -123,5 +131,96 @@ section {
 
     .film-link {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .film {
+        align-items: flex-start;
+    }
+    
+    .film-img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    #profile-photo {
+        width: 180px;
+    }
+
+    #my-description h1 {
+        font-size: 3.5rem;
+    }
+
+    #roles {
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap; 
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+        font-size: 1.2rem;
+    }
+    
+    .film {
+        display: block;
+        margin-bottom: 7rem;
+    }
+
+    .film-img {
+        display: block;
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.6rem;
+    }
+
+    .film-link {
+        margin: 0 auto;
+    }
+
+    
+}
+
+@media screen and (max-width: 660px) {
+    #about-me {
+        display: block;
+        text-align: center;
+    }
+
+    #profile-photo {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    section {
+        margin-bottom: 3.875rem;
+    }
+    
+    #my-description h1 {
+        font-size: 2.975rem;
+    }
+
+    #roles {
+        font-size: 1.1rem;
+    }
+
+    .film {
+        margin-bottom: 5rem;
+    }
+
+    .film-name {
+        margin-bottom: 0.8rem;
+    }
+
+    .film-info,
+    .film-description {
+        margin-bottom: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #my-description h1 {
+        font-size: 2.25rem;
     }
 }
