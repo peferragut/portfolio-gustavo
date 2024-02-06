@@ -71,13 +71,13 @@ section {
 
 .film-info {
     font-weight: lighter;
-    font-size: 23px;
+    font-size: 1.4375rem;
     margin-bottom: 1.5rem;
 }
 
 .film-description {
     font-weight: 400;
-    font-size: 21px;
+    font-size: 1.3125rem;
     margin-bottom: 1.5rem;
 }
 
@@ -86,7 +86,7 @@ section {
     border: 1px solid #E53718;
     border-radius: 32px;
     padding: 10px 22px;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-decoration: none;
     transition: 0.4s;
 }
@@ -94,4 +94,34 @@ section {
 .film-link:hover {
     background-color: #E53718;
     color: #000;
+}
+
+@media screen and (max-width: 1320px) {
+    .film {
+        gap: 5%;
+    }
+
+    .film-img {
+        width: 600px;
+    }
+
+    .text-description {
+        font-size: 1.1rem;
+    }
+
+    .film-name {
+        font-size: 2rem;
+    }
+
+    .big-name {
+        font-size: 1.6rem;
+    }
+
+    .film-info {
+        font-size: 1.275rem;
+    }
+
+    .film-link {
+        font-size: 1rem;
+    }
 }
